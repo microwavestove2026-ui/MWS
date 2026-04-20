@@ -17,12 +17,97 @@
 <body class="antialiased">
   <div class="site-shell">
     <div id="site-header" data-page="contact"></div>
+
     <main class="px-4 pb-10 pt-10 md:pb-14 md:pt-14">
-      <section class="mx-auto max-w-7xl"><span class="premium-pill reveal inline-flex rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-[0.32em] text-[#d6af60]">Let's Explore What This Could Become</span><h1 class="reveal mt-6 max-w-5xl font-display text-5xl leading-[0.96] text-[#f9f2db] md:text-6xl">Open to thoughtful collaboration around the next stage.</h1><p class="reveal mt-6 max-w-3xl text-lg leading-8 text-[#d9c8a1]">We are open to discussions with appliance manufacturers, technology partners, inventors, investors, and product development teams.</p><p class="reveal mt-4 max-w-3xl text-base leading-8 text-[#cdb98d]">If you would like to learn more or discuss possible collaboration, please reach out.</p></section>
-      <section class="mx-auto mt-16 grid max-w-7xl gap-6 lg:grid-cols-[1.04fr_0.96fr]"><div class="section-card reveal rounded-[2rem] p-8 md:p-10"><p class="eyebrow text-sm font-semibold">Contact</p><form class="mt-8 space-y-5" onsubmit="event.preventDefault(); document.getElementById('form-success').classList.remove('hidden'); this.reset();"><div class="grid gap-5 md:grid-cols-2"><label class="block"><span class="mb-2 block text-sm font-medium text-[#f7f0d8]">Name</span><input type="text" required class="w-full rounded-2xl px-4 py-3" placeholder="Your name"></label><label class="block"><span class="mb-2 block text-sm font-medium text-[#f7f0d8]">Organization</span><input type="text" class="w-full rounded-2xl px-4 py-3" placeholder="Company, startup, lab, or studio"></label></div><div class="grid gap-5 md:grid-cols-2"><label class="block"><span class="mb-2 block text-sm font-medium text-[#f7f0d8]">Email</span><input type="email" required class="w-full rounded-2xl px-4 py-3" placeholder="your.email@example.com"></label><label class="block"><span class="mb-2 block text-sm font-medium text-[#f7f0d8]">Discussion type</span><select class="w-full rounded-2xl px-4 py-3"><option>Technology partnership</option><option>Manufacturing or product development</option><option>Investor or strategic discussion</option><option>General collaboration inquiry</option></select></label></div><label class="block"><span class="mb-2 block text-sm font-medium text-[#f7f0d8]">Message</span><textarea required rows="6" class="w-full rounded-3xl px-4 py-3" placeholder="Tell us about your interest, collaboration angle, or questions."></textarea></label><button type="submit" class="glow-button rounded-full bg-[linear-gradient(135deg,#f4d79a,#d6af60,#8f6a2f)] px-6 py-3 text-sm font-semibold text-black transition hover:-translate-y-0.5">Send Inquiry</button><p id="form-success" class="hidden rounded-2xl border border-[rgba(214,175,96,0.18)] bg-[rgba(214,175,96,0.06)] px-4 py-3 text-sm text-[#e8d7b1]">Thanks for reaching out. This static GitHub Pages-ready form currently shows a confirmation message and can be connected later to your preferred form backend.</p></form></div><div class="space-y-6"><div class="section-card reveal rounded-[2rem] p-8"><p class="eyebrow text-sm font-semibold">Reach us directly</p><div class="mt-5 space-y-3 text-sm leading-7 text-[#cdb98d]"><p><span class="font-semibold text-[#f7f0d8]">Email:</span> microwavestove@gmail.com</p><p><span class="font-semibold text-[#f7f0d8]">Project stage:</span> Early-stage innovation project</p><p><span class="font-semibold text-[#f7f0d8]">Focus:</span> Hybrid cooking concept, validation, engineering, collaboration</p></div></div><div class="section-card reveal rounded-[2rem] p-8"><p class="eyebrow text-sm font-semibold">Who we want to hear from</p><ul class="mt-5 space-y-3 text-base leading-7 text-[#cdb98d]"><li>Appliance manufacturers</li><li>Technology partners</li><li>Inventors</li><li>Investors</li><li>Product development teams</li></ul></div><div class="section-card reveal rounded-[2rem] p-8"><p class="eyebrow text-sm font-semibold">Note</p><p class="mt-5 leading-8 text-[#cdb98d]">Microwave Stove is an early-stage innovation project. The information on this website is for general understanding and collaboration discussions only.</p></div></div></section>
+
+      <!-- HEADER -->
+      <section class="mx-auto max-w-7xl">
+        <span class="premium-pill reveal inline-flex rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-[0.32em] text-[#d6af60]">
+          Let's Explore What This Could Become
+        </span>
+
+        <h1 class="reveal mt-6 max-w-5xl font-display text-5xl leading-[0.96] text-[#f9f2db] md:text-6xl">
+          Open to thoughtful collaboration around the next stage.
+        </h1>
+
+        <p class="reveal mt-6 max-w-3xl text-lg leading-8 text-[#d9c8a1]">
+          We are open to discussions with appliance manufacturers, technology partners, inventors, investors, and product development teams.
+        </p>
+
+        <p class="reveal mt-4 max-w-3xl text-base leading-8 text-[#cdb98d]">
+          If you would like to learn more or explore collaboration, feel free to reach out or submit the form below.
+        </p>
+      </section>
+
+      <!-- MAIN SECTION -->
+      <section class="mx-auto mt-16 grid max-w-7xl gap-6 lg:grid-cols-[1.04fr_0.96fr]">
+
+        <!-- GOOGLE FORM EMBED -->
+        <div class="section-card reveal rounded-[2rem] p-6 md:p-8">
+          <p class="eyebrow text-sm font-semibold mb-4">Contact Form</p>
+
+          <div class="overflow-hidden rounded-2xl border border-[rgba(214,175,96,0.15)]">
+            <p class="text-sm text-[#cdb98d] mb-4">
+For collaboration, partnership, or technical discussions, please fill the form below.
+</p>
+  <iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLSdxQG4MHdTbiOKKJWz1r7kH23Q3qZxU1f5RW7xeX1Cnc3LYqg/viewform?embedded=true" 
+    class="w-full"
+    style="height: 1000px;"
+    frameborder="0" 
+    marginheight="0" 
+    marginwidth="0">
+    Loading…
+  </iframe>
+</div>  
+        </div>
+
+        <!-- RIGHT SIDE INFO -->
+        <div class="space-y-6">
+
+          <!-- EMAIL -->
+          <div class="section-card reveal rounded-[2rem] p-8">
+            <p class="eyebrow text-sm font-semibold">Reach us directly</p>
+
+            <div class="mt-5 space-y-3 text-sm leading-7 text-[#cdb98d]">
+              <p>
+                <span class="font-semibold text-[#f7f0d8]">Email:</span> 
+                microwavestove2026@gmail.com
+              </p>
+
+              <p>
+                <span class="font-semibold text-[#f7f0d8]">Project stage:</span> 
+                Early-stage innovation project
+              </p>
+
+              <p>
+                <span class="font-semibold text-[#f7f0d8]">Focus:</span> 
+                Hybrid cooking concept, validation, engineering, collaboration
+              </p>
+            </div>
+          </div>
+
+          <!-- TARGET PEOPLE -->
+          <div class="section-card reveal rounded-[2rem] p-8">
+            <p class="eyebrow text-sm font-semibold">Who we want to hear from</p>
+
+            <ul class="mt-5 space-y-3 text-base leading-7 text-[#cdb98d]">
+              <li>Appliance manufacturers</li>
+              <li>Technology partners</li>
+              <li>Inventors</li>
+              <li>Investors</li>
+              <li>Product development teams</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
     </main>
+
     <div id="site-footer"></div>
   </div>
+
   <script src="assets/site.js"></script>
 </body>
 </html>
