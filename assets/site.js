@@ -2,7 +2,7 @@ const pageLabels = {
   home: "index.html",
   technology: "technology.html",
   journey: "journey.html",
-  experiments: "experiments.html",
+  "proof-of-concept": "proof-of-concept.html",
   faq: "faq.html",
   contact: "contact.html"
 };
@@ -11,7 +11,7 @@ const navItems = [
   ["home", "Home"],
   ["technology", "Technology"],
   ["journey", "Journey"],
-  ["experiments", "Experiments / R&D"],
+  ["proof-of-concept", "Proof of Concept"],
   ["faq", "FAQ"],
   ["contact", "Contact"]
 ];
@@ -34,12 +34,13 @@ function buildHeader(activeKey) {
       <div class="glass-nav mx-auto max-w-7xl rounded-[2rem] px-5 py-4 md:px-6">
         <div class="flex items-center justify-between gap-4">
           <a href="index.html" class="flex items-center gap-3">
-            <span class="brand-mark flex h-11 w-11 items-center justify-center rounded-full text-sm font-extrabold text-black">MS</span>
+            <img src="assets/images/MWS-5.png" alt="Microwave Stove logo" class="h-11 w-11 rounded-full object-cover ring-1 ring-[rgba(214,175,96,0.26)]">
             <div>
               <p class="text-xs font-semibold uppercase tracking-[0.34em] text-[#d6af60]">Microwave</p>
               <p class="text-sm text-[#f7f0d8]">Stove</p>
             </div>
           </a>
+          <div class="hidden rounded-full border border-[rgba(214,175,96,0.18)] bg-[rgba(214,175,96,0.06)] px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.26em] text-[#d6af60] xl:inline-flex">Early-stage innovation project</div>
           <nav class="hidden items-center gap-7 text-sm font-medium lg:flex">
             ${desktopLinks}
           </nav>
@@ -66,18 +67,18 @@ function buildFooter() {
       <div class="mx-auto grid max-w-7xl gap-8 md:grid-cols-[1.2fr_0.8fr]">
         <div>
           <p class="text-xs font-semibold uppercase tracking-[0.34em] text-[#d6af60]">Microwave Stove</p>
-          <p class="mt-4 max-w-2xl text-sm leading-7 text-[#e6d7b4]">An early-stage technology effort exploring how microwave energy, sensing, and cooking hardware could be combined in a clearer and more intentional way. This site documents the work-in-progress openly.</p>
+          <p class="mt-4 max-w-2xl text-sm leading-7 text-[#e6d7b4]">Microwave Stove is an early-stage innovation project. The information on this website is for general understanding and collaboration discussions only.</p>
         </div>
         <div class="grid gap-3 text-sm text-[#d9c8a1] md:justify-self-end">
           <a href="technology.html" class="transition hover:text-[#fff3cf]">Technology</a>
           <a href="journey.html" class="transition hover:text-[#fff3cf]">Journey</a>
-          <a href="experiments.html" class="transition hover:text-[#fff3cf]">Experiments / R&amp;D</a>
+          <a href="proof-of-concept.html" class="transition hover:text-[#fff3cf]">Proof of Concept</a>
           <a href="faq.html" class="transition hover:text-[#fff3cf]">FAQ</a>
           <a href="contact.html" class="transition hover:text-[#fff3cf]">Contact</a>
         </div>
       </div>
       <div class="mx-auto mt-10 flex max-w-7xl flex-col gap-3 border-t border-[rgba(214,175,96,0.12)] pt-6 text-xs uppercase tracking-[0.22em] text-[#8a7858] md:flex-row md:items-center md:justify-between">
-        <p>Built for clarity, transparency, and long-term learning.</p>
+        <p>Early-stage innovation project.</p>
         <p>&copy; <span id="site-year"></span> Microwave Stove</p>
       </div>
     </footer>
