@@ -33,7 +33,7 @@ function buildHeader(activeKey) {
     <header class="sticky top-0 z-50 px-4 pt-4">
       <div class="glass-nav mx-auto max-w-7xl rounded-[2rem] px-5 py-4 md:px-6">
         <div class="flex items-center justify-between gap-4">
-          <a href="index.html" class="flex items-center gap-3">
+          <a href="index" class="flex items-center gap-3">
             <img src="assets/images/MWS-5.png" alt="Microwave Stove logo" class="h-11 w-11 rounded-full object-cover ring-1 ring-[rgba(214,175,96,0.26)]">
             <div>
               <p class="text-xs font-semibold uppercase tracking-[0.34em] text-[#d6af60]">Microwave</p>
@@ -70,11 +70,11 @@ function buildFooter() {
           <p class="mt-4 max-w-2xl text-sm leading-7 text-[#e6d7b4]">Microwave Stove is an early-stage innovation project. The information on this website is for general understanding and collaboration discussions only.</p>
         </div>
         <div class="grid gap-3 text-sm text-[#d9c8a1] md:justify-self-end">
-          <a href="technology.html" class="transition hover:text-[#fff3cf]">Technology</a>
-          <a href="journey.html" class="transition hover:text-[#fff3cf]">Journey</a>
-          <a href="proof-of-concept.html" class="transition hover:text-[#fff3cf]">Proof of Concept</a>
-          <a href="faq.html" class="transition hover:text-[#fff3cf]">FAQ</a>
-          <a href="contact.html" class="transition hover:text-[#fff3cf]">Contact</a>
+          <a href="technology" class="transition hover:text-[#fff3cf]">Technology</a>
+          <a href="journey" class="transition hover:text-[#fff3cf]">Journey</a>
+          <a href="proof-of-concept" class="transition hover:text-[#fff3cf]">Proof of Concept</a>
+          <a href="faq" class="transition hover:text-[#fff3cf]">FAQ</a>
+          <a href="contact" class="transition hover:text-[#fff3cf]">Contact</a>
         </div>
       </div>
       <div class="mx-auto mt-10 flex max-w-7xl flex-col gap-3 border-t border-[rgba(214,175,96,0.12)] pt-6 text-xs uppercase tracking-[0.22em] text-[#8a7858] md:flex-row md:items-center md:justify-between">
