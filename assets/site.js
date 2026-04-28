@@ -1,10 +1,10 @@
 const pageLabels = {
-  home: "index.html",
-  technology: "technology.html",
-  journey: "journey.html",
-  "proof-of-concept": "proof-of-concept.html",
-  faq: "faq.html",
-  contact: "contact.html"
+  home: "index",
+  technology: "technology",
+  journey: "journey",
+  "proof-of-concept": "proof-of-concept",
+  faq: "faq",
+  contact: "contact"
 };
 
 const navItems = [
